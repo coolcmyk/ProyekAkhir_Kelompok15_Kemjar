@@ -4,12 +4,20 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "vulnerable": "node vulnerable/index.js",
+    "secure": "node secure/index.js",
+    "both": "concurrently \"npm run vulnerable\" \"npm run secure\"",
     "dev": "node index.js"
   },
   "dependencies": {
-     "bcryptjs": "^2.4.3",
+    "bcryptjs": "^2.4.3",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
-    "multer": "2.0.2"
+    "multer": "2.0.2",
+    "node-fetch": "^3.3.2",
+    "pnpm": "^10.24.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
   }
 }

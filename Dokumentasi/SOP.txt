@@ -1,0 +1,76 @@
+Keamanan Jaringan Komputer
+Standard Operational Procedure
+Proyek Akhir: Penetration Testing
+
+Tujuan SOP:
+Menjadi dasar acuan dan landasan proyek akhir praktikum Keamanan Jaringan baik dalam sistem penilaian, aturan, hal-hal teknis dan hal lainnya yang berkaitan dengan modul akhir praktikum Keamanan Jaringan
+Menyediakan referensi bagi praktikan, dosen, dan asisten laboratorium mengenai prosedur proyek akhir praktikum Keamanan Jaringan 2025.
+Menjamin secara keseluruhan proses modul akhir praktikum Keamanan Jaringan 2025 berjalan sesuai rencana.
+
+Ruang Lingkup:
+Mahasiswa/mahasiswi FTUI aktif, yang sedang mengambil mata kuliah Keamanan Jaringan dan Praktikum.
+Asisten Laboratorium Jaringan DTE FTUI 2025 yang bertanggung jawab untuk menjalankan proses praktikum secara menyeluruh.
+Peraturan, ketentuan, dan sanksi selama proses praktikum.
+Hak dan kewajiban praktikan pada saat presentasi.
+
+Ketentuan Penetration Testing:
+Praktikan akan melakukan Penetration Testing secara berkelompok terhadap topik yang telah ditentukan
+Setiap kelompok berisikan 2 orang praktikan
+Setiap kelompok akan mendapatkan 2 topik
+
+Topik yang kelompok saya pilih adalah:
+1. Insecure File Upload
+2. Insecure Change Password Feature
+
+Alur dari Penetration Testing:
+Target Creation: Praktikan membuat sebuah sistem yang vulnerable sesuai dengan topik yang telah dipilih
+Enumeration: Praktikan mengumpulkan informasi dari target yang sudah dibuat, seperti menemukan port yang terbuka, jenis stack yang dipakai, kemungkinan vulnerability dan lain-lain
+Exploitation: Praktikan melakukan eksploitasi terhadap target tersebut lalu menunjukkan cara untuk melakukan eksploitasi beserta hasil dari eksploitasi yang telah dilakukan 
+Remediation: Praktikan melakukan pengamanan kepada target yang sudah dibuat agar tidak dapat dieksploitasi kembali
+Proof: Praktikan mencoba untuk melakukan eksploitasi kembali terhadap target tersebut, lalu menunjukkan hasil bahwa target tersebut sudah tidak bisa dieksploitasi
+Praktikan harus membuat sendiri target, tidak boleh menggunakan source code yang sudah tersedia, seperti DVWA. 
+Target dapat dibuat sederhana saja, seperti misalnya hanya website yang berisikan 2 halaman, tetapi memiliki fitur yang dapat dieksploitasi sesuai topik
+Setiap tahapan dalam proses pentest harus didokumentasikan secara lengkap dalam laporan menggunakan template standar yang telah disediakan dalam emas2.  
+
+Template ini memiliki struktur konten sebagai berikut:
+Pendahuluan: Menjelaskan tujuan pentest, ruang lingkup, serta metodologi yang digunakan secara umum.
+
+Ringkasan Eksekutif: Memberikan gambaran umum tentang temuan, termasuk daftar vulnerability yang ditemukan selama pentest beserta rekomendasi mitigasi maupun remediasi yang dilakukan.
+
+Detail Kerentanan:
+Deskripsi kerentanan yang ditemukan.
+Langkah eksploitasi secara rinci.
+Dampak terhadap sistem atau data.
+Berikan bukti pendukung seperti screenshot, cuplikan log, atau hasil pemindaian
+Mitigasi dan Remediasi:
+Rekomendasi teknis dan strategis untuk mengatasi kerentanan.
+Tindakan remediasi yang dilakukan untuk memperbaiki kerentanan.
+Penjelasan tentang hasil yang dicapai setelah remediasi diterapkan.
+
+
+Kesimpulan: Ringkasan hasil pentest dan kesimpulan langkah tindak lanjut yang diperlukan.
+
+
+Lampiran: Informasi tambahan seperti hasil scanning lengkap, skrip/program yang digunakan, atau data uji lainnya.
+
+
+Deadline pengumpulan laporan yaitu pada tanggal 3 Desember 2025 di emas2. 
+File yang perlu dikumpulkan adalah laporan dari Penetration Testing
+Presentasi hasil pekerjaan Praktikan akan dilakukan pada tanggal 4-5 Desember 2025.
+Jadwal presentasi masing-masing kelompok akan diberitahukan lebih lanjut
+
+Komponen Penilaian:
+Teknis (50%):
+Seluruh tahapan dilakukan dengan benar dan menggunakan metode yang tepat
+Penggunaan tools yang relevan dan efektif terhadap topik yang dipilih
+Menerapkan best practice dalam melakukan pengamanan
+Laporan (30%):
+Pembahasan detail dan jelas dari setiap tahap
+Kerapihan laporan
+Presentasi (20%):
+Seluruh tahapan yang telah dilakukan dapat dijelaskan dengan baik
+Kemampuan dalam menjawab pertanyaan yang diberikan
+
+Penanggung Jawab Praktikum:
+Fairuz Muhammad
+Raihan Muhammad Ihsan
